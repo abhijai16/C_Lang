@@ -11,10 +11,10 @@ int gcd(int x, int y){
 int main(){
     int num1, num2;
 
-    printf("Enter number 1: ");
+    printf("Enter number One: ");
     scanf("%d", &num1);P
 
-    printf("Enter number 2: ");
+    printf("Enter number Two: ");
     scanf("%d", &num2);
 
     printf("GCD of %d and %d is %d.\n", num1, num2, gcd(num1, num2));
